@@ -86,8 +86,8 @@ Input::Input(int argc, char **argv)
             distance_[i][j] = sqrt(pow(x[i] - x[j], 2) + pow(y[i] - y[j], 2));
 }
 
-    // int main(int argc, char* argv[]){
-    //     Input in(argc,argv);
-    //     cout<<in<<endl;
-    //     return 0;
-    // }
+    int main(int argc, char* argv[]){
+        Input in(argc,argv);
+        cout<<in<<endl;
+        return 0;
+    }
